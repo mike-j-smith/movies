@@ -1,0 +1,1 @@
+web: bundle exec ruby ./lib/movie_app.rb -p $PORT
