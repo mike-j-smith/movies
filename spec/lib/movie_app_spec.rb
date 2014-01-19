@@ -1,11 +1,4 @@
-require_relative '../lib/movie_app.rb'
-require 'rack/test'
-
-set :environment, :test
-
-def app
-	Sinatra::Application
-end
+require_relative '../spec_helper'
 
 describe 'movie_app' do 
 
